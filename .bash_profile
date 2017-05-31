@@ -2,6 +2,17 @@ export HISTSIZE=99999
 export HISTFILESIZE=999999
 export HISTCONTROL=ignoreboth
 export HISTIGNORE="df*:tig:gpull:gpush:cd*:ping*"
+#a = black
+#b = red
+#c = green
+#d = brown
+#e = blue
+#f = magenta
+#g = cyan
+#h = light gray
+#x = default
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 PATH=~/bin:$PATH
 
