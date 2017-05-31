@@ -1,0 +1,41 @@
+
+[credential]
+#helper = git-credential-osxkeychain
+
+[core]
+#excludesfile = gitignore
+editor = vim
+
+[user]
+	name = Gianni Moschini
+#	email = gianni.moschini
+
+[color]
+ui = true
+
+[alias]
+st = status
+sub = submodule update --init --recursive
+co = checkout
+ci = commit
+cr = diff -p --no-prefix -U1000
+	ctags = !.git/hooks/ctags
+
+[rerere]
+	enabled = true
+[push]
+	default = simple
+[diff]
+	noprefix = true
+[init]
+	templatedir = ~/.git_template
+# Use git via ssh instead of https
+[url "git@github.com:"]
+        insteadOf = https://github.com/
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+
+[hub]
+protocol = https
