@@ -1,0 +1,7 @@
+--regex-C=/$x/x/x/e/ The first line turns off tags generation for variables and imports. The second and third lines turn off generation of tags in the named dirs, since you almost certainly want to ignore source code in those directories. 
+--python-kinds=-iv
+--exclude=build
+--exclude=.venv
+--exclude=dist
+--exclude=.git
+
