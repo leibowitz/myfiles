@@ -1,0 +1,3 @@
+set vertical-split = horizontal
+set status-untracked-dirs = no
+set diff-options = --no-prefix
