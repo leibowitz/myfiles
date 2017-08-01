@@ -1,1 +1,6 @@
---type-set=proto:ext:proto
+--ignore-file=is:.tags
+--ignore-dir=.venv
+--ignore-dir=is:node_modules
+--ignore-dir=is:bower_components
+--ignore-file=ext:sql
+--ignore-file=ext:json
