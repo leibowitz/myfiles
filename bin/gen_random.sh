@@ -1,0 +1,2 @@
+#!/bin/bash
+LC_ALL=C </dev/urandom tr -dc A-Za-z0-9 | head -c 65 && echo
